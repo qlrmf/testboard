@@ -17,5 +17,5 @@ public class DeleteFormControllerImpl implements IBoardController {
 		session.setAttribute("delete", tmp);
 		return "deleteForm.jsp";
 	}
-
+                   
 }
